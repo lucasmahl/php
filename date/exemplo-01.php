@@ -5,14 +5,13 @@
 	echo "<br/>";
 	echo time();
 
-
 	//testando data e hora local
-	/*date_default_timezone_set('America/Sao_Paulo');
+	date_default_timezone_set('America/Sao_Paulo');
 	$data = date('d/m/Y');
 	$hora = date('H:i:s');
 
 	echo "<br/>";
 	echo $data."<br/>";
-	echo $hora."<br/>";*/
+	echo $hora."<br/>";
 
 ?>

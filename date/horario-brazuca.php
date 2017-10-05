@@ -11,7 +11,7 @@
 <div style="background-color: lightgreen; width: 75%; height: auto; color: darkgray">
 
 <?php
-
+setlocale(LC_ALL, "pt_BR", "pt_BR.utf-8","portuguese");
 // DEFINE O FUSO HORARIO COMO O HORARIO DE BRASILIA
     date_default_timezone_set('America/Sao_Paulo');
 // CRIA UMA VARIAVEL E ARMAZENA A HORA ATUAL DO FUSO-HORÀRIO DEFINIDO (BRASÍLIA)

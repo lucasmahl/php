@@ -4,5 +4,4 @@
 	// "->" para acessar metódo
 	echo $dt->format("H:i:s - d/m/Y");
 
-
 ?>
