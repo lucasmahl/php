@@ -9,7 +9,7 @@
 
 	echo $a;
 	echo "<br/>";
-	echo trocaValor($a);
+	echo trocaValor($a);//soma 50
 	echo "<br/>";
 	echo $a; //o trocaValor não alterou a variável
 

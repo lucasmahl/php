@@ -11,7 +11,7 @@
 
 	switch (session_status()) {
 		case PHP_SESSION_DISABLED:
-			echo "sESSÃO DESABILITADA";	
+			echo "SESSÃO DESABILITADA";	
 			break;
 		case PHP_SESSION_NONE:
 			echo "SESSÃO DESABILITADA MAS NENHUMA EXISTE";	

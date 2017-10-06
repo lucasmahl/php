@@ -17,7 +17,8 @@
 	
 	echo "<br/>";
 
-	echo ($qualSuaIdade < $idadeMaior)? "Menor de idade":"Maior de idade";//elseif de uma linha só
+	//elseif de uma linha só
+	echo ($qualSuaIdade < $idadeMaior)? "Menor de idade":"Maior de idade";
 	//se for menor, mostra Menor de idade, senão, mostra Maior de idade
 
 	
