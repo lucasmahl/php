@@ -6,4 +6,5 @@
 
 	echo soma(2,2);
 	echo var_dump(soma(3.2,5.3));
+	echo soma(2,2,2,2);
 ?>

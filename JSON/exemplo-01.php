@@ -9,7 +9,7 @@
 
 	array_push($pessoas, array(
 		'nome'=>'Lucas',
-		'idade'=>25
+		'idade'=>20
 	));
 
 	echo json_encode($pessoas);

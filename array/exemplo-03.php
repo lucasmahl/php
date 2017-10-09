@@ -9,7 +9,7 @@
 
 	array_push($pessoas, array(
 		'nome'=>'Lucas',
-		'idade'=>25
+		'idade'=>10
 	));
 
 	print_r($pessoas);

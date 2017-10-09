@@ -1,9 +1,7 @@
 <?php
 	
 	function ola(){
-
 		return "Olar mundo!!!<br/>";
-
 	}
 	
 	echo ola();

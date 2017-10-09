@@ -1,8 +1,8 @@
 <?php 
 
-	$anoNascimento = 1992;
-	$nome1 = "Lucas";
-	$sobrenome = "Mahl";
+	$anoNascimento = 1900;
+	$nome1 = "Lusca";
+	$sobrenome = "Teste";
 	$nomeCompleto = $nome1 . " " . $sobrenome;
 	echo $nomeCompleto;
 	echo "<br/>";
@@ -19,9 +19,6 @@
 	}else{
 		echo "Variável não existe";
 	}
-
-
-
 
 	echo "<br/>";
 	echo $anoNascimento;
