@@ -8,7 +8,7 @@
 
 	foreach ($meses as $index => $mes) {
 		# code...
-		echo "Indice" . $index . "<br/>";
+		echo "Indice " . $index . "<br/>";
 		echo "O mês é " . $mes . "<br/>". "<br/>";
 	}
 ?>
