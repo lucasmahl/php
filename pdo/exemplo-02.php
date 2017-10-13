@@ -1,7 +1,7 @@
 <?php
 	//PARA SQL SERVER
 	//tipo de banco, nome, local, usuario e senha(sem espaço entre mysql,db e host)
-	$conn = new PDO("sqlsrv:Database=dbphp7;server=localhost\SQLEXPRESS;ConnectionPooling=0","sa","datumcorp");
+	$conn = new PDO("sqlsrv:Database=dbphp7;server=SIRIUS\DATUM;ConnectionPooling=0","sa","datumcorp");
 
 	//statement
 	$stmt = $conn->prepare("SELECT * FROM tb_usuarios ORDER BY deslogin");
