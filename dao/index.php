@@ -31,10 +31,14 @@
 	//$aluno->insert();
 	//echo $aluno;
 
-	$usuario = new Usuario();
+	//Alterando um usuario
+	/*$usuario = new Usuario();
 	$usuario->loadById(9);
-	$usuario->update("Professor","qwerty");
+	$usuario->update("Professor","qwerty");*/
 
-
-
+	//Delete
+	$usuario = new Usuario();
+	$usuario->loadById(43);
+	$usuario->delete();
+	echo $usuario;
 ?>
