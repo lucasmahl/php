@@ -24,10 +24,17 @@
 	//$usuario->login("root","123");
 	//echo $usuario;
 
-	$aluno = new Usuario("aluno","123456789");
+	//criando um novo usuario
+	//$aluno = new Usuario("aluno","123456789");
 	/*$aluno->setDeslogin("aluno");
 	$aluno->setDessenha("123456");*/
-	$aluno->insert();
-	echo $aluno;
+	//$aluno->insert();
+	//echo $aluno;
+
+	$usuario = new Usuario();
+	$usuario->loadById(9);
+	$usuario->update("Professor","qwerty");
+
+
 
 ?>
