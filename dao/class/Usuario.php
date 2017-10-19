@@ -42,10 +42,12 @@
 			return $this;
 		}
 
-		public function loadbyId($id){
+		public function loadById($id){
 			$sql = new Sql();
 
 			$results = $sql->select("SELECT * FROM tb_usuarios WHERE idusuario = :ID", array(":ID"=>$id));
+
+			var_dump($id);
 
 			if (count($results)>0) {
 				$row = $results[0];

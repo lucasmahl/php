@@ -4,7 +4,7 @@
 
 	$root = new Usuario();
 
-	$root->loadbyId(1);
+	$root->loadById(1);
 
 	echo $root;
 ?>
