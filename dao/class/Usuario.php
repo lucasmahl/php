@@ -6,36 +6,40 @@
 		private $dessenha;
 		private $dtcadastro;
 
-		public function getIdusuario(){
+		public function getIdusuario():int{
 			return $this->idusuario;
 		}
 
 		public function setIdusuario($value){
 			$this->idusuario = $value;
+			return $this;
 		}
 
-		public function getDeslogin(){
+		public function getDeslogin():string{
 			return $this->deslogin;
 		}
 
 		public function setDeslogin($value){
 			$this->deslogin = $value;
+			return $this;
 		}
 
-		public function getDessenha(){
+		public function getDessenha():string{
 			return $this->dessenha;
 		}
 
 		public function setDessenha($value){
 			$this->dessenha = $value;
+			return $this;
 		}
 
-		public function getDtcadastro(){
+		public function getDtcadastro():dateTime{
 			return $this->dtcadastro;
 		}
 
 		public function setDtcadastro($value){
 			$this->dtcadastro = $value;
+			return $this;
 		}
 
 		public function loadbyId($id){
@@ -53,6 +57,11 @@
 
 			}
 		}
+
+		public static function getList() {
+		$sql = new Sql();
+		return $sql->select("SELECT * FROM tb_users ORDER BY deslogin");
+	}
 
 		public function __toString(){
 			return json_encode(array(
