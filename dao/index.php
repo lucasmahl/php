@@ -2,9 +2,32 @@
 
 	require_once("config.php");
 
-	$root = new Usuario();
 
+	//carrega um usuário
+	/*$root = new Usuario();
 	$root->loadById(1);
+	echo $root;*/
 
-	echo $root;
+	//carrega uma lista de usuarios
+	//usando a funcao static de Usuario.php
+	//$lista = Usuario::getList();
+
+	//echo json_encode($lista);
+
+	//Carrega uma lista de usuarios buscando pelo login
+
+	//$search = Usuario::search("usua");
+	//echo json_encode($search);
+
+	//carrega um usuario, usando login e senha
+	//$usuario = new Usuario();
+	//$usuario->login("root","123");
+	//echo $usuario;
+
+	$aluno = new Usuario("aluno","123456789");
+	/*$aluno->setDeslogin("aluno");
+	$aluno->setDessenha("123456");*/
+	$aluno->insert();
+	echo $aluno;
+
 ?>
